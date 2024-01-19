@@ -1,0 +1,52 @@
+.footer {
+    background-color: rgb(5, 10, 36);
+}
+
+.container-footer-above {
+    
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer {
+    margin-left: 250px;
+    margin-right: 200px;
+    padding: 15px;
+    
+}
+
+.logo-footer {
+    width: 50px;
+    height: auto;
+    gap: 50%;
+}
+
+.socials {
+    display: flex;
+    gap: 50%;
+    justify-content: end;
+}
+
+.logosocial {
+    width: 30px;
+    height: auto;
+}
+
+.container-footer-below {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-p {
+    color: white;
+}
+
+.policies {
+    display: flex;
+    gap: 25px;
+}

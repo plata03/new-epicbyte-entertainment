@@ -1,0 +1,56 @@
+
+.header {
+    background-color: rgb(5, 10, 36);
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.epic-logo {
+    width: 250px;
+    height: auto;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    gap: 100px;
+    align-items: center ;
+}
+
+
+.header-nav li {
+    list-style: none;
+    font-size: 120%;
+    
+}
+
+.header-nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15%;
+}
+
+.header-nav a:hover {
+    background-color: white;
+    color: #2596be;
+    border-radius: 5%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.language {
+    width: 50px;
+    height: auto;
+}
+
+.language:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+
+.team-card {
+    width: 300px;
+    background-color: rgb(5, 10, 36);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-pfp-container {
+    width: 100%;
+    height: 275px;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    overflow: hidden;
+}
+
+.team-card-pfp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-card-content {
+    padding: 24px 16px;
+}
+
+.team-card-fullname {
+    color: #2596be;
+    font-weight: 900;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.team-card-desc {
+   color: rgb(252, 252, 252) ; 
+   font-size: 14px;
+   letter-spacing: 1px;
+}
+
+.team-card-skills {
+    color: #2596be;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.team-social-links {
+    width: 100%;
+    display: flex;
+    height: 0;
+    border-top: 1px solid #cfcfcf;
+    transition: height 0.3s ease;
+}
+
+.fa-brands {
+    width: 25px;
+    height: 25px;
+}
+
+.team-card:hover .team-social-links {
+    height: 65px;
+}
+
+.team-social-links .insta {
+    --color: #ee5487
+}
+
+.team-social-links .linkedin {
+    --color: #0077b5
+}
+
+.team-social-links .gmail {
+    --color: #e31f14
+}
+
+.team-social-links .discord {
+    --color: #7289DA
+}
+
+.team-social-links > a {
+    font-size: 20px;
+    padding-block: 20px;
+    color: var(--color);
+    flex: 1;
+}
+
+.team-social-links > a:not(:last-child) {
+    border-right: 1px solid #cfcfcf;
+}
+
+.team-social-links > a:hover {
+    background-color: var(--color);
+}
+
+.team-social-links > a:hover > i {
+    color: white;
+}

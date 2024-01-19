@@ -1,0 +1,46 @@
+
+.team-container {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+
+.team-title {
+    text-align: center;
+    color: #2596be;
+    font-size: 300%;
+}
+
+.team-cards-container {
+    justify-content: center;
+    align-items: start;
+    gap: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.skills-title {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+.skills-div {
+    background-color: #2596be;
+    padding: 1%;
+}
+
+.skills-div-secondary {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.skills-category {
+    font-size: 250%;
+    color: rgb(5, 10, 36);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

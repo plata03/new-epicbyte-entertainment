@@ -1,0 +1,21 @@
+
+.projects-container {
+    margin-left: 75px;
+    margin-right: 75px;
+    color: #2596be;
+}
+
+.archive-title {
+    text-align: center;
+    font-size: 300%;
+}
+
+.category-title {
+    font-size: 250%;
+}
+
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
