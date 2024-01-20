@@ -1,0 +1,33 @@
+.logo-in-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    z-index: 1; 
+    border-radius: 10px;
+}
+
+.banner-background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5% auto;
+    padding: 10%;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
+.background-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    filter: blur(50px); 
+    z-index: 0; 
+}

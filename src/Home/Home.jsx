@@ -1,6 +1,8 @@
 import "./homestyle.css"
 import Header from '../Header/Header'
 import Footer from "../Footer/Footer"
+import { Link } from "react-router-dom"
+import Banner from "./Banner"
 
 const Home = () => {
 
@@ -42,7 +44,7 @@ const Home = () => {
                     <li >
                         <div className="date">October 2023</div>
                         <div className="title">Rise of EpicByte</div>
-                        <div className="descr">During the English sunject at ITS Angelo Rizzoli, we were tasked to idealize our company and we came up with the idea of a gaming company, which later on we named "EpicByte Entertainment".</div>
+                        <div className="descr">During the English subject at ITS Angelo Rizzoli, we were tasked to idealize our company and we came up with the idea of a gaming company, which later on we named "EpicByte Entertainment".</div>
                     </li>
                     <li >
                         <div class="date">January 2024</div>
@@ -52,6 +54,27 @@ const Home = () => {
                     
                 </ul>
                 
+            </div>
+            <div className="home-coming-soon">
+                <h1 className="home-coming-soon-title">Coming Soon...</h1>
+                <p className="home-coming-soon-p">Here are some currently work-in-progress projects!</p>
+                <div className="coming-soon-background">
+                    <img />
+                </div>
+                <div className="coming-soon-background">
+                    <img />
+                </div>
+                <Banner
+                    background={"https://i.ibb.co/tm7kMmL/wp8768980.jpg"} 
+                    logo={"https://i.ibb.co/pz4JVKv/assistit.png"}
+                    />
+                <Banner
+                    background={"https://i.ibb.co/GJvX2Wd/ghostybg.png"}
+                    logo={"https://i.ibb.co/7Kw1ktG/ghosty-Haunt-Logo-New.png"}
+                    />
+                <Link to={"/projects"} >
+                    <button className="see-more-btn">See more</button>
+                </Link>
             </div>
             <Footer />
         </>
