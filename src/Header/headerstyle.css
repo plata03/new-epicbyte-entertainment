@@ -54,3 +54,23 @@
 .language:hover {
     cursor: pointer;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .header-nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-nav a {
+        padding: 5px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
