@@ -37,7 +37,6 @@
 .container-footer-below {
     display: flex;
     align-items: center;
-    display: flex;
     justify-content: space-between;
     
 }
@@ -49,4 +48,34 @@
 .policies {
     display: flex;
     gap: 25px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .container-footer-above {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-footer-below {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socials {
+        display: flex;
+        gap: 50%;
+        justify-content: center;
+    }
+
+    .policies {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

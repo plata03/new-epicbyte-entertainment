@@ -55,22 +55,38 @@
     cursor: pointer;
 }
 
-
+.mobile-menu-icon {
+    display: none;
+}
 
 
 @media screen and (max-width: 1000px) {
     .header-nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      display: none;
     }
-
+  
+    .header-nav.open {
+      display: flex;
+    }
+  
     .header-nav a {
-        padding: 5px;
+      padding: 5px;
     }
-
+  
     .header-container {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
-}
+  
+    .mobile-menu-icon {
+      display: block;
+      cursor: pointer;
+      color: white;
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  }
+  
