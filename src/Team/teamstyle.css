@@ -44,3 +44,17 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+
+@media screen and (max-width: 1200px) {
+    .team-cards-container {
+        grid-template-columns: auto;
+        margin-bottom: 250px;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    
+}
